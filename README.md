@@ -46,7 +46,7 @@ eller
 
 ## 2. Implementera komponenterna och props
 
-Du ska skapa 3 olika komponenter: 
+Ni ska skapa 3 olika komponenter: 
 
 ### App 
 Den här komponenten ska rendera ut endast en Pokedex-komponent, där datat om pokemons ska skickas med som en prop.
@@ -79,7 +79,7 @@ Layouten ska vara som ett card. Avänd flexbox eller grid.  Kom ihåg att klassn
 
 ## 3. Utöka med Pokegame-komponenten
 
- Nu ska du även skapa en Pokegame-komponent
+ Nu ska ni även skapa en Pokegame-komponent
 
 1. Modifiera din App-komponent så att den renderar en Pokegame istället för en Pokedex
 
@@ -100,7 +100,7 @@ Layouten ska vara som ett card. Avänd flexbox eller grid.  Kom ihåg att klassn
 
 # 😎 Bonus: Blackjack
 
-Bygg en reactapp som automatisk delar ut 2 kort från en normal kortlek. Du kan också låta ett click-event hantera detta. 
+Bygg en reactapp som automatisk delar ut 2 kort från en normal kortlek. Ni kan också låta ett click-event hantera detta. 
 
 Använd dig av Deck of Cards API för att hämta bilden för respektive kort.
 
