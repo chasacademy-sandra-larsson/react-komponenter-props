@@ -1,47 +1,47 @@
 
-# React: Komponenter och Props  
+# React: JSX, Komponenter och Props  
 
 ### Innehåll denna workshop:
-* Sätta upp ett Reactprojekt med Vite 
+* Sätta upp ett Reactprojekt (med Typescript) i Vite 
 * Skapa din första Reactkomponent
 * Använda dig av JSX
-* Använda dig av flera komponenter
+* Använda dig av flera komponenter samt exportera/importera komponenter
 * Skicka information från en komponent till en annan komponent (använda props)
-* Hantera props med object Destructering 
+* Hantera props med object destructering 
 * Hur man renderar listor i React m.h.a map()
 * Skriva logik (funktioner) inuti komponenter
-* Dela upp varje funktionskomponent i moduler 
 
 
 ### 💬 Diskussionsfrågor
 
 * Vad är JSX? 
-* Hur renderar man en lista i React? Varför behövs en key?
 * Vad är prop och vad används de till?
+* Hur kan man typa props med Typescript? Använda objekt destructering?
 * Varför har React namngivning som ex className, htmlFor?
-* Hur kan man använda sig av object desctructering för att hantera props "mer cleant"?
+* Hur renderar man en lista i React? Varför behövs en key?
+* CSS i React. Vad finns det för lösningar att en viss CSS hör endast till en viss komponent?
+
 
 # 👩🏽‍💻 Övning: Pokedex
 
 Syftet med övningen är lära sig att bygga en enkel reactapp med flera komponenenter samt använda props som skickar information mellan komponenterna.
 
 ### Din uppgift:
-Gör en komponent Pokedex som innehåller några utvalda Pokemonkort med respektive information om vardera Pokemon. Renderingen ska se ut (ungefär) som denna bild (del 1 + 2).
+Gör en komponent Pokedex som innehåller några utvalda Pokemonkort med respektive information om vardera Pokemon. Renderingen ska se ut (ungefär) som denna bild (del 1 + 2). 
+Använd dig av Typescript för att definiera dina typer (använd type eller interface)
 
 ![Pokedex](/pokedex.png)
 
 ## 1. Sätta upp ett Reactprojekt med Vite 
-
-Se s 11-18 i kursboken
 
 * Se till att du har Node.js installerat [https://nodejs.org](https://nodejs.org) 
 * Navigera i terminalen där du vill installera din reactapplikation.
 * Kör sedan du följande instruktion i terminalen
 
 ```
-npm create vite@latest my-app -- --template react
+npm create vite@latest my-app -- --template react-ts
 ```
-
+eller
 
 
 ## 2. Implementera komponenterna och props
